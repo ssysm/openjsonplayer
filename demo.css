@@ -1,0 +1,60 @@
+div#video_controls_bar{
+	background: #333;
+	padding: 10px;
+	color: #CCC;
+	margin-bottom: 0px;
+	font-family: Arial;
+	margin-left: 5px;
+}
+div#openjsonplayer{
+	width: 950px;
+	height: 625px;
+	background: #333;
+	margin: 0px auto;
+}
+video#ojp_core{
+	width:600px;
+	height:500px;
+	padding: 10px;
+	margin-left:5px; 
+}
+div#danmu_send{
+	background: #333;
+	padding: 10px;
+	margin-left: 5px;
+}
+input#danmu_enter{
+	width: 523px;
+}
+input#seekslider{
+	width: 200px;
+}
+div#all_danmu{
+	float: right;
+	padding: 5px;
+	border: 5px;
+	background:#FFFFFF;
+	width: 290px;
+	height: 530px;
+	margin-right: 11px;
+	margin-top: 35px;
+    overflow:auto;
+}
+button#danmu_history{
+	margin-left: 30px;
+	width: 300px;
+}
+input[type='range']{
+	-webkit-appearance:none;
+	background: #000;
+	border:#666 1px solid;
+	height: 4px;
+}
+input[type='range']::-webkit-slider-thumb{
+	-webkit-appearance:none;
+	background: #FFF;
+	height: 15px;
+	width: 15px;
+	border-radius: 100%;
+	cursor: pointer;
+}
